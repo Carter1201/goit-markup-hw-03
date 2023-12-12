@@ -206,6 +206,7 @@ button:focus {
 }
 .portfolio-list {   
     flex-wrap: wrap;  
+    justify-content: space-evenly;
     column-gap: 24px;
     row-gap: 48px;
     padding-bottom: 120px;

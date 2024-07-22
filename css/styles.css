@@ -202,8 +202,6 @@ button:focus {
         width: calc(((100%-72px)/4))
     }
 
-
-
 .team-card {
     background-color: #FFF;
     text-align: center;
@@ -224,8 +222,8 @@ button:focus {
     gap: 24px;
     flex-wrap: wrap;
 }
-.item-description {
-    padding: 32px 16;
+.team-item-description {
+    padding: 32px 0;
     }
 .our-team {
     background-color: #F4F4FD;
@@ -247,7 +245,7 @@ button:focus {
 }
 
 .portfolio-item-description {
-    padding: 32px 0;
+    padding: 32px 16px;
 }
 
 .portfolio-list-item :first-child {

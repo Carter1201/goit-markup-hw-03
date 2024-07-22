@@ -211,6 +211,12 @@ button:focus {
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
+
+.team-card: first-child {
+    width: calc((199%-72px)/4)
+    border-radius: 0px 0px 4px 4px;
+}
+
 .our-team-list {
     display: flex;
     justify-content: space-evenly;
@@ -221,12 +227,11 @@ button:focus {
 .item-description {
     padding-top: 32px;
     padding-bottom: 32px;
-    padding-left: 16px;
-    padding-right: 16px;
-}
+    }
 .our-team {
     background-color: #F4F4FD;
     text-align: center;
+    padding: 120px 0;
 }
 .portfolio-list {   
     flex-wrap: wrap;  

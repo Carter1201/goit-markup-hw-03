@@ -105,7 +105,8 @@ nav {
     max-width: 1440px;
     text-align: center;    
     margin: auto;
-}
+    }
+
 .hero-title {    
     font-size: 56px;
     font-weight: 700;
@@ -154,6 +155,10 @@ button:focus {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+.features {
+    padding: 120px 0;
+}
 .section-header {    
     color: #2E2F42;
     text-align: center;
@@ -177,24 +182,34 @@ button:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+.features-list {
+    display: flex;
+    gap: 24px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+ .features-item {
+
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        width: 264px;
+    }
+
+ .features-item: first-child {
+        width: calc(((100%-72px)/4))
+    }
+
+
+
 .team-card {
     background-color: #FFF;
     text-align: center;
     width: 264px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-}
-.features-item {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-    width: 264px;
-}
-.features-list{
-    gap: 24px;
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 .our-team-list {
     display: flex;

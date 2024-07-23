@@ -263,7 +263,6 @@ button:focus {
 }
 .logo-footer {    
     color: #F4F4FD;
-    margin-bottom: 16px;
 }
 .footer-text {
     color:#F4F4FD;
@@ -271,11 +270,7 @@ button:focus {
     letter-spacing: 0.02em;
     width: 264px;
 }
-.footer-content {
-    display: flex;
-    flex-direction: column;   
-    gap: 16px;
-}
+
 .footer-link {
     
     margin-bottom: 16px;

@@ -20,13 +20,13 @@ img {
     display: block;
 }
 .container {
-    /* display: flex; */
+    
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    /* flex-direction: column; */
+    
 }
 
 /* Header*/
@@ -97,7 +97,6 @@ nav {
 .address-link:focus {
     color: #404BBF;
 }
-
 
  /*Hero section*/ 
 
@@ -192,7 +191,6 @@ button:focus {
 }
 
 .features-item {
-
         flex-direction: column;
         align-items: flex-start;
         gap: 8px;
@@ -202,6 +200,11 @@ button:focus {
 .features-item :first-child {
         width: calc(((100%-72px)/4))
     }
+.our-team {
+    background-color: #F4F4FD;
+    text-align: center;
+    padding: 120px 0;
+}
 
 .team-card {
     background-color: #FFF;
@@ -225,11 +228,6 @@ button:focus {
 .team-item-description {
     padding: 32px 0;
     }
-.our-team {
-    background-color: #F4F4FD;
-    text-align: center;
-    padding: 120px 0;
-}
 
 .portfolio {
     padding-top: 120px;
@@ -275,5 +273,4 @@ button:focus {
 .footer-link {    
     display: inline-block;
     margin-bottom: 16px;
-    max-width: 132px;
 }

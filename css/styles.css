@@ -20,13 +20,13 @@ img {
     display: block;
 }
 .container {
-    display: flex;
+    /* display: flex; */
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 /* Header*/
@@ -34,6 +34,7 @@ img {
 .header {
     align-items: center;
     border-bottom: 1px solid #E7E9FC;
+    
 }
 nav {
     display: flex;
@@ -46,6 +47,7 @@ nav {
     flex-direction: row;
     width: 1158px;
     padding: 0 15px;
+    display: flex;
 }
 .logo {
     color:#4D5AE5;

@@ -10,6 +10,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 a {
     text-decoration: none;
+    display: inline-block;
 }
 ul,ol {
     list-style-type: none;
@@ -276,6 +277,6 @@ button:focus {
     gap: 16px;
 }
 .footer-link {
-    display: inline-block;
+    
     margin-bottom: 16px;
 }

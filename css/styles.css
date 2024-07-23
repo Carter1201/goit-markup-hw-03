@@ -26,6 +26,7 @@ img {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    flex-direction: column;
 }
 
 /* Header*/
@@ -42,6 +43,7 @@ nav {
 .header-box {
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
     width: 1158px;
     padding: 0 15px;
 }
@@ -167,7 +169,6 @@ button:focus {
     line-height: 1.11;
     text-transform: capitalize;
     letter-spacing: 0.02em;
-    padding-top: 120px;
     margin-bottom: 72px;
 }
 .section-header-item {
@@ -186,8 +187,6 @@ button:focus {
 .features-list {
     display: flex;
     gap: 24px;
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 
 .features-item {
@@ -218,7 +217,6 @@ button:focus {
 .our-team-list {
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 120px;
     gap: 24px;
     flex-wrap: wrap;
 }
@@ -241,7 +239,6 @@ button:focus {
     justify-content: space-evenly;
     column-gap: 24px;
     row-gap: 48px;
-    padding-bottom: 120px;
 }
 
 .portfolio-item-description {
@@ -275,9 +272,7 @@ button:focus {
 }
 .footer-content {
     display: flex;
-    flex-direction: column;
-    padding-top: 100px;
-    padding-bottom: 100px;    
+    flex-direction: column;   
     gap: 16px;
 }
 .footer-link {
